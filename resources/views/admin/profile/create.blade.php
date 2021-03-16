@@ -1,7 +1,7 @@
 {{-- layouts/profile.blade.phpを読み込む --}}
 @extends('layouts.profile')
 
-{{-- admin.blade.phpの@yield('title')に'Myプロフィール'を埋め込む --}}
+{{-- admin.blade.phpの@yield('title')に'Myプロフィール'を埋め込む。 --}}
 @section('title', 'Myプロフィール')
 
 {{-- profile.blade.phpの@yield('content')に以下のタグを埋め込む --}}
