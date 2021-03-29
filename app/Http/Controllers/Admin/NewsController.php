@@ -7,7 +7,7 @@ use App\Http\Controllers\Controller;
 // 以下を追記することでNews Modelが扱えるようになる
 use App\News;
 
-class Newscontroller extends Controller
+class NewsController extends Controller
 {
     //以下を追記
     public function add()
