@@ -8,7 +8,6 @@ use App\Http\Controllers\Controller;
 use App\profile;
 
 
-
 class ProfileController extends Controller
 {
 
