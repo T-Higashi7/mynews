@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\HTML;
+use App\Profile;
 
 class ProfileController extends Controller
 {
@@ -18,7 +20,7 @@ class ProfileController extends Controller
 
         // profiles/index.blade.php ファイルを渡している
         // また View テンプレートに headline、 posts、という変数を渡している
-        return view('profiles.index', ['headline' => $headline, 'posts' => $posts]);
+        return view('profile.index', ['headline' => $headline, 'posts' => $posts]);
     }
 
 }
